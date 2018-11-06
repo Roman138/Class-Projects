@@ -1,0 +1,11 @@
+ol {
+  color:pink;
+}
+
+a{
+  color: blue;
+}
+
+a:hover{
+  border-color: red;
+}

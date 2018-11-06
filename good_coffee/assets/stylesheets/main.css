@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+
+    <title></title>
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+   <div class="container-fluid">
+     <!-- Brand and toggle get grouped for better mobile display -->
+     <div class="navbar-header">
+       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+         <span class="sr-only">Toggle navigation</span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+       </button>
+       <a class="navbar-brand" href="#">Bath and Body</a>
+     </div>
+
+     <!-- Collect the nav links, forms, and other content for toggling -->
+     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+       <ul class="nav navbar-nav">
+         <li class="active"><a href="#">About<span class="sr-only">(current)</span></a></li>
+         <li><a href="https://www.a21.org/index.php">The Cause</a></li>
+
+       </ul>
+
+       <ul class="nav navbar-nav navbar-right">
+         <li><a href="#" data-toggle="modal" data-target="#videoModal">Who's EPPS
+         <!-- Modal -->
+ 			<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel"aria-hidden="true">
+ 			  <div class="modal-dialog">
+ 			    <div class="modal-content">
+ 			    	<div class="modal-body">
+ 			        	<iframe width="100%" height="350"src="https://www.youtube.com/embed/7K4G5-ydhS0"></iframe>
+ 			    	</div>
+ 			    </div>
+ 			</div>
+ 		</a></li>
+ 		<!-- END MODAL -->
+         <li class="dropdown">
+           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">EPPS Product <span class="caret"></span></a>
+           <ul class="dropdown-menu" role="menu">
+             <li><a href="#">Body Butters</a></li>
+             <li><a href="#">Bath Bombs</a></li>
+             <li><a href="#">Soaps</a></li>
+             <li class="divider"></li>
+             <li><a href="#">Separated link</a></li>
+           </ul>
+         </li>
+       </ul>
+     </div><!-- /.navbar-collapse -->
+   </div><!-- /.container-fluid -->
+ </nav>
+
+<div class="jumbotron">
+    <h1 class="animated fadeInDown"> EPPS Bath and Body.</h1>
+</div>
+
+<div class="container-fluid mission">
+  <div class="row">
+    <h3> Here at  EPPS we are passionate about serving the best bath and body products.
+    <br> Our products are made with a purpose and passion attached to them.
+    <br> Stop by today and experience the EPPS difference. </h3>
+  </div>
+</div>
+
+<div class="order-button">
+   <a href="#" class="btn btn-default">Order Your Box Today!</a>
+</div>
+
+<div class="container features">
+    <div class="row">
+
+        <div class="col-xs-12 col-sm-4">
+            <img class="img-responsive" src="https://m.media-amazon.com/images/S/aplus-seller-content-images-us-east-1/ATVPDKIKX0DER/A3RHBMNZYHYXLA/B01B1M292C/5JuYwJVUREOR._UX300_TTW__.jpg">
+    	    <p>The freshest body butter that soothes the skin</p>
+    	</div>
+
+    	<div class="col-xs-12 col-sm-4">
+    	    <img class="img-responsive" src="https://beautycrafter.com/wp-content/uploads/2017/12/Rose-Bath-Bombs.jpg">
+    	    <p> A perfect environment created with the perfect bombs.</p>
+    	</div>
+
+    	<div class="col-xs-12 col-sm-4">
+    	    <img class="img-responsive" src="https://www.uncommongoods.com/images/items/23400/23434_1_640px.jpg">
+    	    <p> Quality hand-crafted soap made with the greatest of care.</p>
+    	</div>
+
+    </div>
+</div>
+
+<footer class="container-fluid" >
+	<p>© EPPS LLC 2018</p>
+	<ul>
+	        <li><a href="#">About</a></li>
+		<li><a href="#">The Cause</a></li>
+		<li><a href="#">Location</a></li>
+	</ul>
+</footer>
+
+
+
+ <!-- check out the modal we added here!! http://getbootstrap.com/javascript/#modals -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+   <!-- Include all compiled plugins (below), or include individual files as needed -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+
+</body>
+
+  </body>
+</html>
